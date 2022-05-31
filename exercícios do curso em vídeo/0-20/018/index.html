@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+       /*
+
+       : pseudo-class
+       :: pseudo-elements
+       > children
+
+       */
+       body {
+           background-color: grey;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+       
+       div {
+           color: rgb(49, 49, 49);
+           background-color: yellow;
+
+       }
+
+       div:hover {
+           background-color: rgb(255, 255, 143);
+       }
+
+       div > p {
+           display: none;
+       }
+
+       div:hover > p {
+           display: block;
+       }
+
+       a {
+           color: red;
+           text-decoration: none;
+           font-size: 1.7em;
+           font-weight: 600;
+       }
+
+       a:visited {
+           color: darkred;
+       }
+
+       a:hover {
+           color: black;
+           text-decoration: underline;
+       }
+
+       a:active {
+           color: yellow;
+       }
+
+       a::before {
+           content: 'ᐊ';
+       }
+
+       a::after {
+        content: 'ᐅ';
+       }
+   </style>
+    <title>pseudo classes</title>
+    </head>
+<body>
+    <h1>hovers</h1>
+    <p>divs</p>
+    <div>
+        passe o mouse
+        <p>hihi...</p>
+    </div>
+    <h1>personalizando links</h1>
+        <ul>
+            <li><a href="https://twitter.com/yanbelmont_" target="_blank">twitter</a></li>
+            <li><a href="https://www.instagram.com/yanbelmont_" target="_blank">instagram</a></li>
+        </ul>
+</body>
+</html>

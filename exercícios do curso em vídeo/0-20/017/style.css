@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*
+    class = . (pode utilizar em vários elementos)
+    id = # (usar em elementos únicos)
+*/
+
+body {
+    background-color: rgb(189, 189, 189);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conference {
+    color: rgb(55, 0, 100);
+    font-size: 1.6em;
+}
+
+#title {
+    color: rgb(0, 1, 75);
+    font-size: 2.1em;
+}
+
+.x {
+    color: rgb(122, 69, 0);
+}

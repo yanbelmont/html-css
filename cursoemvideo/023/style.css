@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Merriweather:wght@300&display=swap');
+
+:root {
+    --fonte1: 'Arvo', serif;
+    --fonte2: 'Merriweather', serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: darkgrey;
+    min-height: 100vh;
+    font-family: var(--fonte2);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: var(--fonte1);
+
+}
+
+header > h1 {
+    padding-top: 20px;
+    font-variant: small-caps;
+    font-size: 4vw;
+}
+
+header > h2 {
+    padding-bottom: 20px;
+    font-size: 1em;
+}
+
+section {
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    line-height: 1.6em;
+    padding-left: 32px;
+    font-size: 1.6em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: grey;
+    color: white;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.459);
+    width: 40vw;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+footer > a {
+    text-decoration: none;
+    color: rgb(196, 196, 196);
+}
